@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Family Time</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <h1>Family Time is Precious!</h1>
@@ -15,21 +16,26 @@
             <h3><a href="https://honeykidsasia.com/new-movies-at-cinema-2024/">Movie Recommendations</a></h3>
         <h2>Who are you planning for?<h2>
 
-        <form action="/action_page.php">
+        <!-- <form action="/action_page.php">
             <label for="fname">First name:</label><br>
             <input type="text" id="fname" name="fname" value="John"><br>
             <label for="lname">Last name:</label><br>
             <input type="text" id="lname" name="lname" value="Doe"><br><br>
             <input type="submit" value="Submit">
-        </form> 
+        </form> -->
 
         <label for="Age">Choose age:</label>
 
+
         <select id="Age">
-            <option value="5 year and below">5 and below</option>
+            <option value="5 and below">5 years and below</option>
             <option value="6 - 10 years">6 - 10 years</option>
-            <option value="11 - 15 years">11 - 15 years</option>
-            <option value="15 years and above">15 years and above</option>
+            <option value="Above 10 years">Above 10 years</option>
         </select>
+        <input type="submit" value="Submit" onclick="activities()">
+
+        
+
+        <h3 id="age-response"></h3>
 </body>
 </html>
