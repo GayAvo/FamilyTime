@@ -8,13 +8,10 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <img src="/public/images/FamilyTime.png" alt="Logo of FamilyTime">
-    <h1>Family Time is Precious!</h1>
-        <h2>You might be interested in this</h2>
-            <h3><a href="https://www.nationalgallery.sg/gallerykids/">National Gallery Kids</a></h3>
-            <h3><a href="https://www.theartground.com.sg/">The Artground</a></h3>
-            <h3><a href="https://www.nparks.gov.sg/sbg/whats-happening/calendar-of-events?page=3">Singapore Botanic Gardens</a></h3>
-            <h3><a href="https://honeykidsasia.com/new-movies-at-cinema-2024/">Movie Recommendations</a></h3>
+    <img src="/public/images/RobotFamily.png" width="200" height="150" alt="Family time Logo">
+    <h1>Family Time is Precious</h1>
+    <p>Do something fun, together!</p>
+        
         <h2>Who are you planning for?<h2>
 
         <!-- <form action="/action_page.php">
@@ -24,9 +21,8 @@
             <input type="text" id="lname" name="lname" value="Doe"><br><br>
             <input type="submit" value="Submit">
         </form> -->
-
+     
         <label for="Age">Choose age:</label>
-
 
         <select id="Age">
             <option value="5 and below">5 years and below</option>
@@ -34,9 +30,33 @@
             <option value="Above 10 years">Above 10 years</option>
         </select>
         <input type="submit" value="Submit" onclick="activities()">
+   
+        <h3 id="age-response"></h3>
+
+
+        <h2>What are they interested in?</h2>
+        
+        <label for="Interest">Choose interest:</label>
+
+        <select id="Interest">
+            <option value="Arts and Culture">Arts and Culture</option>
+            <option value="Sports">Sports</option>
+            <option value="Greenery">Greenery</option>
+            
+        </select>
+        <input type="submit" value="Submit" onclick="activities()">
+
+        <h3 id="interest-response"></h3>
+
+
+        <h2>You might also want to check this out!</h2>
+            <h3><a href="https://www.nationalgallery.sg/gallerykids/">National Gallery Kids</a></h3>
+            <h3><a href="https://www.theartground.com.sg/">The Artground</a></h3>
+            <h3><a href="https://www.nparks.gov.sg/sbg/whats-happening/calendar-of-events?page=3">Singapore Botanic Gardens</a></h3>
+            <h3><a href="https://honeykidsasia.com/new-movies-at-cinema-2024/">Movie Recommendations</a></h3>
 
         
 
-        <h3 id="age-response"></h3>
+<p><small>Disclaimer: This website is created for learning purposes only. The information provided here should not be considered professional advice. Please note that we make no guarantees regarding the accuracy, completeness, or reliability of the contents of this website. Any actions you take based on the contents of this website are at your own risk. We are not liable for any losses or damages incurred from the use of this website.</small></p>
 </body>
 </html>

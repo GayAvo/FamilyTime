@@ -6,7 +6,7 @@
 
 // console.log (username1age)
 
-function activities() {
+function activitiesAge() {
     var user_input = document.getElementById("Age").value
 
     if (user_input == "5 and below") {
@@ -27,3 +27,14 @@ function activities() {
     // document.getElementById("header-age").textContent = user_input
 
 }
+
+function activitiesInterest() {
+    var user_input = document.getElementById("Interest").value
+
+    if (user_input == "Arts and Culture") {
+        document.getElementById("interest-response").textContent = "The Artground – A Curious Place to be is managed by The Ground Co Limited, a registered arts charity dedicated to children from birth to 9 years old. As the first multi-disciplinary children’s arts centre in Singapore, we aim to provide positive arts experiences across a variety of art forms, and build bridges between artists, educators, parents and children from various communities so that they may discover and co-create meaningful arts experiences together. https://www.theartground.com.sg/"
+    } else if (user_input == "Sports") {
+        document.getElementById("interest-response").textContent = "Singapore Sports Hub. Here’s a chance for the young ones to build new skills, have fun and make new friends! Explore the variety of kids programmes available at Singapore Sports Hub. The wide array of programmes range from multi-activity classes, camps, groovy dance sessions and more! https://www.sportshub.com.sg/sport-fitness/kids-activities"
+    } else {
+        document.getElementById("interest-response").textContent = "The Singapore Botanic Gardens (the Gardens) was inscribed as a UNESCO World Heritage Site on 4th July 2015, at the 39th session of the World Heritage Committee (WHC) in Bonn, Germany. The Gardens is the first and only tropical botanic garden on the UNESCO’s World Heritage List. https://www.nparks.gov.sg/sbg/whats-happening/calendar-of-events"
+    }
