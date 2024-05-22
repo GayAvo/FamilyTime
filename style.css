@@ -5,9 +5,11 @@ h1 {
 }
 h2 {
     color:rgb(153, 8, 141);
-    margin-bottom: 50px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 h3 {
+    text-align: center;
     margin-bottom: 25px;
 }

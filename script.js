@@ -47,29 +47,32 @@ function activities() {
   
     if (age == "5 and below") {
       if (interest == "Arts and Culture") {
-        response = "Visit The Artground – A Curious Place to be for arts and cultural experiences suitable for children from birth to 9 years old. https://www.theartground.com.sg/";
+        response = 'Visit <a href="https://www.theartground.com.sg/" target="_blank">The Artground</a> – A Curious Place to be for arts and cultural experiences suitable for children from birth to 9 years old.';
       } else if (interest == "Sports") {
-        response = "Enroll in a toddler sports program for a fun and energetic activity suitable for young children.";
+        response = 'Enroll in a toddler sports program for a fun and energetic activity suitable for young children. Visit the <a href=https://www.sportshub.com.sg/sport-fitness/kids-activities" target="_blank">Singapore Sports Hub</a> and explore the variety of kids programmes!';
       } else if (interest == "Greenery") {
-        response = "Take a walk in the nearby park and enjoy nature with your young child.";
+        response = "Visit the Jacob Ballas Children's Garden, which is located within the Singapore Botanic Gardens, is designed specifically for children. It offers a fun, interactive, and educational experience where young children can explore various themed zones like the farm, orchard, and forest.";
       }
     } else if (age == "6 - 10 years") {
       if (interest == "Arts and Culture") {
-        response = "Join an art and craft workshop for kids at a local community center.";
+        response = 'Catch something at The Esplanade - Theatres on The Bay’s <a href=https://www.esplanade.com/whats-on/festivals-and-series/festivals/2024/flipside" target="_blank">Flipside Festival</a>, presenting artists who see and express the world through a unique lens: puppetry, circus, physical theatre and comedy.';
       } else if (interest == "Sports") {
-        response = "Sign up for a junior soccer or basketball league.";
+        response = "Consider Kids’ Martial Arts Classes such as such as Taekwondo, Karate, or Judo that focus on self-discipline, respect, and physical fitness. These classes often include belt progression to keep children motivated. Such programmes are available at Martial arts schools, community centers, and sports complexes.";
       } else if (interest == "Greenery") {
-        response = "Visit the Singapore Botanic Gardens for an educational and fun outdoor activity. https://www.nparks.gov.sg/sbg/whats-happening/calendar-of-events";
+        response = "The MacRitchie Reservoir Treetop Walk offers a thrilling experience for children with a sense of adventure. This free-standing suspension bridge offers a bird's-eye view of the forest canopy, and the trail leading to the bridge provides opportunities to spot wildlife and learn about nature.";
       }
     } else if (age == "Above 10 years") {
       if (interest == "Arts and Culture") {
-        response = "Explore the National Gallery Singapore, which offers a variety of art exhibitions and programs for older children and teenagers. https://www.nationalgallery.sg/whats-on";
+        response = 'Explore the <a href="https://www.nationalgallery.sg/whats-on" target="_blank">National Gallery Singapore</a>, which offers a variety of art exhibitions and programs for older children and teenagers.';
       } else if (interest == "Sports") {
-        response = "Check out the local sports clubs for activities like tennis, swimming, or martial arts.";
+        response = "Youth rock climbing is suitable for older children where they can learn climbing techniques, safety practices, and build physical strength and problem-solving skills. They are available at indoor climbing gyms and outdoor climbing facilities. Climb Central is one of them.";
       } else if (interest == "Greenery") {
-        response = "Take a hike at one of Singapore’s nature reserves such as Bukit Timah Nature Reserve.";
+        response = "Bukit Timah Nature Reserve Hiking. Older children and teenagers can enjoy a more challenging hike at Bukit Timah Nature Reserve. This reserve is home to Singapore’s highest natural point and offers several trails of varying difficulty levels, perfect for those interested in outdoor activities and nature exploration.";
       }
     }
   
-    document.getElementById("response").textContent = response;
+    var responseBox = document.getElementById("response");
+    // responseBox.textContent = response;
+    responseBox.innerHTML = response;
+    responseBox.style.display = 'block'; // Show the response box
   }

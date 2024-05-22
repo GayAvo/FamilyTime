@@ -6,13 +6,45 @@
     <title>Family Time</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif
+        }
+        .center-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 50vh; /* Full height for vertical centering */
+         }
+    
+        .center-container h3,
+        .center-container label,
+        .center-container select,
+        .center-container input {
+        margin: 5px 0;
+        }
+        .response-box {
+            border: 2px solid #9b4caf; /* Pink border */
+            background-color: #f0d7ef; /* Light pink background */
+            padding: 15px; /* Some padding */
+            border-radius: 5px; /* Rounded corners */
+            margin-top: 20px; /* Space above the box */
+            color: #333; /* Text color */
+            max-width: 600px; /* Optional: Max width */
+            text-align: center; /* Centered text */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Box shadow */
+            display: none; /* Initially hide the box */
+        }
+    </style>
 </head>
 <body>
-    <img src="/public/images/FamilySilhouette.png" width="200" height="150" alt="Family time Logo">
+    <img src="/public/images/RobotFamily.png" width="650" height="350" alt="Family time Logo" style="display: block; margin-left: auto; margin-right: auto;">
     <h1>Family Time is Precious</h1>
     <h2>Do something fun, together!</h2>
         
-        <h3>Who are you planning for?<h3>
+    <div class="center-container">
+        <h3>Who are you planning for?</h3>
 
         <!-- <form action="/action_page.php">
             <label for="fname">First name:</label><br>
@@ -55,6 +87,7 @@
           <option value="Above 10 years">Above 10 years</option>
         </select>
       
+        
         <h3>What are they interested in?</h3>
         <label for="Interest">Choose interest:</label>
         <select id="Interest">
@@ -65,22 +98,22 @@
       
         <input type="button" value="Submit" onclick="activities()">
         
-        <h3 id="response"></h3>
-
+        <h3 id="response" class="response-box"></h3>
+    </div>
         
         <h2>You might also want to check this out!</h2>
-            <img src="/public/images/NGSFamilyProgrammesArtAlive190985.jpg" width="400" height="250" alt = "National Gallery programme with adults and children laughing during their activity">
+            <img src="/public/images/NGSFamilyProgrammesArtAlive190985.jpg" width="400" height="250" alt = "National Gallery programme with adults and children laughing during their activity" style="display: block; margin-left: auto; margin-right: auto;">
             
             <h3><a href="https://www.nationalgallery.sg/gallerykids/">National Gallery Kids</a></h3>
             
-            <img src="/public/images/A Curious Garden resize.png" width="400" height="250" alt = "the space at the artground's venue">
+            <img src="/public/images/A Curious Garden resize.png" width="400" height="250" alt = "the space at the artground's venue" style="display: block; margin-left: auto; margin-right: auto;">
             <h3><a href="https://www.theartground.com.sg/">The Artground</a></h3>
             
-            <img src="/public/images/SBGconcert.jpg" width="400" height="250" alt = "poster of a concert held at Singapore botanic gardens">
+            <img src="/public/images/SBGconcert.jpg" width="400" height="250" alt = "poster of a concert held at Singapore botanic gardens" style="display: block; margin-left: auto; margin-right: auto;">
             <h3><a href="https://www.nparks.gov.sg/sbg/whats-happening/calendar-of-events?page=3">Singapore Botanic Gardens</a></h3>
             
-            <img src="/public/images/AMKPlayground.png" width="400" height="300" alt = "picture of a playground in Ang Mo Kio">
-            <img src="/public/images/Little-Day-Out-Logo-url-240x90px-site-1.png" width="200" height="85" alt = "logo of little day out webiste">
+            <img src="/public/images/AMKPlayground.png" width="400" height="300" alt = "picture of a playground in Ang Mo Kio" style="display: block; margin-left: auto; margin-right: auto;">
+            <img src="/public/images/Little-Day-Out-Logo-url-240x90px-site-1.png" width="200" height="85" alt = "logo of little day out webiste" style="display: block; margin-left: auto; margin-right: auto;">
             <h3><a href="https://www.littledayout.com/category/play/playgrounds/">Interesting Playgrounds</a></h3>
 
         
