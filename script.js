@@ -51,7 +51,7 @@ function activities() {
       } else if (interest == "Sports") {
         response = 'Enroll in a toddler sports program for a fun and energetic activity suitable for young children. Visit the <a href=https://www.sportshub.com.sg/sport-fitness/kids-activities" target="_blank">Singapore Sports Hub</a> and explore the variety of kids programmes!';
       } else if (interest == "Greenery") {
-        response = "Visit the Jacob Ballas Children's Garden, which is located within the Singapore Botanic Gardens, is designed specifically for children. It offers a fun, interactive, and educational experience where young children can explore various themed zones like the farm, orchard, and forest.";
+        response = "Visit the Jacob Ballas Children's Garden, which is located within the Singapore Botanic Gardens. It offers a fun, interactive, and educational experience where young children can explore various themed zones like the farm, orchard, and forest.";
       }
     } else if (age == "6 - 10 years") {
       if (interest == "Arts and Culture") {

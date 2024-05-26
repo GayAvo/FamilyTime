@@ -70,6 +70,7 @@ h1 {
     padding: 70px 70px; /* Optional: Add padding to create space around the text */
     color: rgb(248, 239, 251);
     text-align: center;
+    margin-top: 0;
     margin-bottom: 50px;
 }
 h2 {
