@@ -59,8 +59,14 @@ background-color: #3e8e41;
     margin-bottom: 50px; /* Adds space after the image */
 }
 
+body {
+    background-color: #f4e5f1ad; /* Background color for the whole webpage */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
 h1 {
-    background-color: #5a046f; /* Choose your desired background color */
+    background-color: #4a1158cc; /* Choose your desired background color */
     padding: 70px 70px; /* Optional: Add padding to create space around the text */
     color: rgb(248, 239, 251);
     text-align: center;
