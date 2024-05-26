@@ -17,7 +17,7 @@
   gtag('config', 'G-00GZVFZW3V');
     </script>
     
-    <style>
+    <!-- <style>
         body {
             font-family: 'Arial', sans-serif
         }
@@ -65,13 +65,14 @@
         .styled-button:active {
         background-color: #3e8e41;
         }
-    </style>
+    </style> -->
 </head>
 <body>
-    <img src="/public/images/RobotFamily.png" width="650" height="350" alt="Family time Logo" style="display: block; margin-left: auto; margin-right: auto;">
-    <h1>Family Time is Precious</h1>
-    <h2>Do something fun, together!</h2>
-        
+    <!-- <img src="/public/images/RobotFamily.png" width="650" height="350" alt="Family time Logo" style="display: block; margin-left: auto; margin-right: auto;"> -->
+    <h1>Family Time is precious!</h1>
+    <h2>An acitivity planner for families to do something fun, together!</h2>
+    <img src="/public/images/RobotFamily.png" width="650" height="350" alt="Family time Logo" style="display: block; margin-left: auto; margin-right: auto;" class="styled-image">
+    
     <div class="center-container">
         <h3>Who are you planning for?</h3>
 
@@ -110,22 +111,22 @@
         <h3 id="interest-response"></h3> -->
 
         <label for="Age">Choose age:</label>
-        <select id="Age">
-          <option value="5 and below">5 years and below</option>
-          <option value="6 - 10 years">6 - 10 years</option>
-          <option value="Above 10 years">Above 10 years</option>
+        <select id="Age" class="styled-select">
+          <option value="5 and below" class="styled-option">5 years and below</option>
+          <option value="6 - 10 years" class="styled-option">6 - 10 years</option>
+          <option value="Above 10 years"class="styled-option">Above 10 years</option>
         </select>
       
         
         <h3>What are they interested in?</h3>
         <label for="Interest">Choose interest:</label>
-        <select id="Interest">
-          <option value="Arts and Culture">Arts and Culture</option>
-          <option value="Sports">Sports</option>
-          <option value="Greenery">Greenery</option>
+        <select id="Interest" class="styled-select">
+          <option value="Arts and Culture" class="styled-option">Arts and Culture</option>
+          <option value="Sports" class="styled-option">Sports</option>
+          <option value="Greenery" class="styled-option">Greenery</option>
         </select>
       
-        <input type="button" value="Submit" onclick="activities()">
+        <input type="button" class="styled-button" value="Submit" onclick="activities()">
         
         <h3 id="response" class="response-box"></h3>
     </div>
@@ -133,17 +134,17 @@
         <h2>You might also want to check this out!</h2>
             <img src="/public/images/NGSFamilyProgrammesArtAlive190985.jpg" width="400" height="250" alt = "National Gallery programme with adults and children laughing during their activity" style="display: block; margin-left: auto; margin-right: auto;">
             
-            <h3><a href="https://www.nationalgallery.sg/gallerykids/">National Gallery Kids</a></h3>
+            <h4><a href="https://www.nationalgallery.sg/gallerykids/">National Gallery Kids</a></h4>
             
             <img src="/public/images/A Curious Garden resize.png" width="400" height="250" alt = "the space at the artground's venue" style="display: block; margin-left: auto; margin-right: auto;">
-            <h3><a href="https://www.theartground.com.sg/">The Artground</a></h3>
+            <h4><a href="https://www.theartground.com.sg/">The Artground</a></h4>
             
             <img src="/public/images/SBGconcert.jpg" width="400" height="250" alt = "poster of a concert held at Singapore botanic gardens" style="display: block; margin-left: auto; margin-right: auto;">
-            <h3><a href="https://www.nparks.gov.sg/sbg/whats-happening/calendar-of-events?page=3">Singapore Botanic Gardens</a></h3>
+            <h4><a href="https://www.nparks.gov.sg/sbg/whats-happening/calendar-of-events?page=3">Singapore Botanic Gardens</a></h4>
             
             <img src="/public/images/AMKPlayground.png" width="400" height="300" alt = "picture of a playground in Ang Mo Kio" style="display: block; margin-left: auto; margin-right: auto;">
             <img src="/public/images/Little-Day-Out-Logo-url-240x90px-site-1.png" width="200" height="85" alt = "logo of little day out webiste" style="display: block; margin-left: auto; margin-right: auto;">
-            <h3><a href="https://www.littledayout.com/category/play/playgrounds/">Interesting Playgrounds</a></h3>
+            <h4><a href="https://www.littledayout.com/category/play/playgrounds/">Interesting Playgrounds</a></h4>
 
         
 

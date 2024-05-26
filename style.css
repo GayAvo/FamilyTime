@@ -1,15 +1,90 @@
+body {
+    font-family: 'verdana', sans-serif
+}
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 50vh; Full height for vertical centering */
+ }
+
+.center-container h3,
+.center-container h4,
+.center-container label,
+.center-container select,
+.center-container input {
+    margin: 10px 0;
+}
+.response-box {
+    border: 2px solid #cd61b0; /* Pink border */
+    background-color: #f3e6ef; /* Light pink background */
+    padding: 15px; /* Some padding */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 20px; /* Space above the box */
+    color: #333; /* Text color */
+    max-width: 600px; /* Optional: Max width */
+    text-align: center; /* Centered text */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Box shadow */
+    display: none; /* Initially hide the box */
+}
+
+.styled-button {
+background-color: #a04caf;
+color: white;
+padding: 15px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+transition: background-color 0.3s, transform 0.3s;
+}
+.styled-button:hover {
+background-color: #684e64;
+transform: scale(1.05);
+}
+.styled-button:active {
+background-color: #3e8e41;
+}
+
+.styled-select {
+    font-size: 18px; /* Adjust the font size as needed */
+    padding: 5px;
+  }
+  .styled-option {
+    font-size: 18px; /* Adjust the font size as needed */
+  }
+
+.styled-image {
+    margin-bottom: 50px; /* Adds space after the image */
+}
+
 h1 {
-    color: rgb(20, 49, 213);
+    background-color: #5a046f; /* Choose your desired background color */
+    padding: 70px 70px; /* Optional: Add padding to create space around the text */
+    color: rgb(248, 239, 251);
     text-align: center;
     margin-bottom: 50px;
 }
 h2 {
-    color:rgb(153, 8, 141);
+    color:rgb(140, 2, 128);
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
+    margin-top: 50px;
 }
 
 h3 {
+    color:rgb(44, 30, 43);
     text-align: center;
-    margin-bottom: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+h4 {
+    color:rgb(44, 30, 43);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    
 }
